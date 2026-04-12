@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import { authClient } from "@/lib/auth-client";
-import { Bike, Loader2, MapPin, Mountain, Timer, Wallet } from "lucide-react";
+import { Bike, Loader2, MapPin, Mountain, Timer } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { toast } from "sonner";

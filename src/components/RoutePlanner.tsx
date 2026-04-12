@@ -3,7 +3,7 @@ import { useInView } from "framer-motion";
 import { useRef } from "react";
 import { Compass, Zap, MoveRight } from "lucide-react";
 
-const RoutePlanner = () => {
+const RoutePlanner = ({ onBookingClick }: { onBookingClick?: () => void }) => {
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true, margin: "-100px" });
 
@@ -95,14 +95,13 @@ const RoutePlanner = () => {
                   ))}
                 </div>
 
-                <a
-                  href={`https://wa.me/5535999309770?text=Olá! Gostaria de planejar um pedal de ${route.title}!`}
-                  target="_blank"
+                <button
+                  onClick={onBookingClick}
                   className="inline-flex items-center gap-3 font-bold text-foreground group/link"
                 >
                   Planejar Rota
                   <MoveRight className="w-5 h-5 text-gold group-hover/link:translate-x-2 transition-transform" />
-                </a>
+                </button>
               </div>
             </motion.div>
           ))}
