@@ -53,7 +53,7 @@ const Pricing = ({ onBookingClick }: { onBookingClick?: () => void }) => {
 
   const paymentMethods = [
     "PIX",
-    "Cartão de Crédito (até 12x)",
+    "Cartão de Crédito (até 3x)",
     "Dinheiro",
   ];
 

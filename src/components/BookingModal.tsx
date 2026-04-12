@@ -155,13 +155,13 @@ export function BookingModal({ open, onOpenChange }: BookingModalProps) {
 
         {/* Content */}
         <div className="flex-grow overflow-y-auto p-6 md:p-10">
-          {step === "SUCCESS" ? (
-              <div style={{ padding: "60px 24px", textAlign: "center", background: "white", borderRadius: "24px", margin: "16px", border: "4px solid gold", color: "black" }}>
-                <div style={{ color: "black", fontSize: "96px" }}>✓</div>
-                <h3 style={{ fontSize: "48px", fontWeight: 900, textTransform: "uppercase", color: "black", margin: "20px 0" }}>Agendamento Solicitado!</h3>
-                <p style={{ fontSize: "20px", fontWeight: "bold", color: "black", maxWidth: "500px", margin: "0 auto" }}>Levando você ao WhatsApp para os detalhes finais…</p>
+{step === "SUCCESS" ? (
+              <div className="text-center py-16 px-8 bg-white rounded-3xl mx-4 border-4 border-gold">
+                <div className="text-black text-8xl font-bold">✓</div>
+                <h3 className="text-5xl font-black uppercase text-black mt-6 mb-6">Agendamento Solicitado!</h3>
+                <p className="text-xl font-bold text-black/70 max-w-md mx-auto">Levando você ao WhatsApp para os detalhes finais…</p>
               </div>
-          ) : (
+            ) : (
           <AnimatePresence mode="wait">
             {step === "PREFERENCES" && (
               <motion.div
