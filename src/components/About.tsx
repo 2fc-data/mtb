@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 import { useInView } from "framer-motion";
 import { useRef } from "react";
 import { Map, Users, Gauge, Mountain } from "lucide-react";
-import galleryImage from "@/assets/gallery-1.png";
+import galleryImage from "@/assets/gallery-5.png";
 
 const About = () => {
   const ref = useRef(null);
