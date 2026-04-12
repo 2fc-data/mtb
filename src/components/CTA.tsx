@@ -50,7 +50,7 @@ const CTA = ({ onBookingClick }: { onBookingClick?: () => void }) => {
           >
             <button
               onClick={onBookingClick}
-              className="btn-gold px-12 py-6 rounded-full font-black text-xl flex items-center justify-center gap-4 shadow-2xl shadow-gold/20 hover:scale-105 transition-all group"
+              className="btn-gold px-12 py-6 rounded-full font-black text-xl flex items-center justify-center gap-4 shadow-2xl shadow-gold/20 hover:scale-105 transition-all group cursor-pointer"
             >
               <Bike className="w-8 h-8 group-hover:rotate-12 transition-transform" />
               Agendar Agora

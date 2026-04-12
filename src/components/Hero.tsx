@@ -16,7 +16,7 @@ const Hero = ({ onBookingClick }: { onBookingClick?: () => void }) => {
       >
         <img
           src={heroImage}
-          alt="Mountain Bike em Poços de Caldas - Rota do Vulcão"
+          alt="Mountain Bike em Poços de Caldas - Trilhas no Vulcão"
           className="w-full h-[120%] object-cover"
         />
         <div className="absolute inset-0 bg-linear-to-b from-navy/60 via-navy/30 to-background" />
@@ -53,8 +53,8 @@ const Hero = ({ onBookingClick }: { onBookingClick?: () => void }) => {
           transition={{ duration: 0.8, delay: 0.6 }}
           className="text-lg sm:text-xl md:text-2xl text-primary-foreground/90 max-w-3xl mb-12 font-light leading-relaxed"
         >
-          Explore a única caldeira vulcânica do mundo habitada sobre duas rodas.
-          Das trilhas técnicas de Downhill aos 350km da Rota do Vulcão.
+          Explore as trilhas da caldeira vulcânica sobre duas rodas.
+          Das trilhas técnicas de Downhill aos passeios para iniciantes.
         </motion.p>
 
         <motion.div
@@ -65,7 +65,7 @@ const Hero = ({ onBookingClick }: { onBookingClick?: () => void }) => {
         >
           <button
             onClick={onBookingClick}
-            className="btn-gold px-10 py-5 rounded-full font-bold text-lg flex items-center justify-center gap-3 shadow-gold/20 hover:scale-105 transition-all duration-300 group"
+            className="btn-gold px-10 py-5 rounded-full font-bold text-lg flex items-center justify-center gap-3 shadow-gold/20 hover:scale-105 transition-all duration-300 group cursor-pointer"
           >
             <Bike className="w-6 h-6 group-hover:rotate-12 transition-transform" />
             Agendar

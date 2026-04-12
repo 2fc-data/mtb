@@ -79,10 +79,10 @@ const SignupForm = () => {
     ];
 
     const mileageOptions = [
-        { value: " ate 20km", label: "Até 20km", desc: "Rotas leves e curtas" },
+        { value: " ate 20km", label: "Até 20km", desc: "TRilhas leves e curtas" },
         { value: "20-40km", label: "20-40km", desc: "Distância média" },
-        { value: "40-60km", label: "40-60km", desc: "Rotas intermediárias" },
-        { value: "60-80km", label: "60-80km", desc: "Rotas avançadas" },
+        { value: "40-60km", label: "40-60km", desc: "Trilhas intermediárias" },
+        { value: "60-80km", label: "60-80km", desc: "Trilhas avançadas" },
         { value: "80km+", label: "80km+", desc: "Desafios extremos" },
     ];
 
@@ -175,7 +175,7 @@ const SignupForm = () => {
                                 key={bike.value}
                                 type="button"
                                 onClick={() => setPreferences(prev => ({ ...prev, bikeType: bike.value }))}
-                                className={`p-3 rounded-xl border text-left transition-all ${
+                                className={`p-3 rounded-xl border text-left transition-all cursor-pointer ${
                                     preferences.bikeType === bike.value
                                         ? "bg-gold text-navy border-gold"
                                         : "bg-white/5 border-white/10 text-white/80 hover:bg-white/10"

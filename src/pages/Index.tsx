@@ -23,17 +23,17 @@ const Index = () => {
       <Hero onBookingClick={handleBookingClick} />
       <About />
       <WhyUs />
-      <RoutePlanner onBookingClick={handleBookingClick} />
-      <Pricing onBookingClick={handleBookingClick} />
-      <Lodging />
       <Gallery />
+      <RoutePlanner onBookingClick={handleBookingClick} />
+      <Lodging />
+      <Pricing onBookingClick={handleBookingClick} />
       <Tips />
       <CTA onBookingClick={handleBookingClick} />
       <Footer />
-      
-      <BookingModal 
-        open={isBookingOpen} 
-        onOpenChange={setIsBookingOpen} 
+
+      <BookingModal
+        open={isBookingOpen}
+        onOpenChange={setIsBookingOpen}
       />
     </main>
   );

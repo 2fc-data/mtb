@@ -13,9 +13,9 @@ const Gallery = () => {
 
   const images = [
     { src: heroMain, alt: "Mountain Bike ao entardecer" },
-    { src: gallery1, alt: "Grupo de MTB no estradão" },
+    { src: gallery1, alt: "Grupo de MTB ou Estradão" },
     { src: gallery2, alt: "Singletrack técnico nas montanhas" },
-    { src: gallery3, alt: "Cicloturismo na Rota do Vulcão" },
+    { src: gallery3, alt: "Cicloturismo nas Trilhas do Vulcão" },
   ];
 
   return (
@@ -77,7 +77,7 @@ const Gallery = () => {
             className="max-w-full max-h-[85vh] object-contain rounded-2xl shadow-2xl"
           />
           <button
-            className="absolute top-10 right-10 text-primary-foreground text-5xl hover:text-gold transition-colors font-light"
+            className="absolute top-10 right-10 text-primary-foreground text-5xl hover:text-gold transition-colors font-light cursor-pointer"
             onClick={() => setSelectedImage(null)}
           >
             ×

@@ -100,7 +100,7 @@ const About = () => {
 
             <a
               href="#precos"
-              className="inline-flex items-center gap-3 btn-gold px-10 py-5 rounded-full font-bold text-lg shadow-gold/20"
+              className="inline-flex items-center gap-3 btn-gold px-10 py-5 rounded-full font-bold text-lg shadow-gold/20 cursor-pointer"
             >
               Explorar Pacotes
             </a>

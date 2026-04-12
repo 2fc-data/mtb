@@ -42,7 +42,7 @@ const WhyUs = () => {
           backgroundSize: 'cover'
         }}
       />
-      <div className="absolute inset-0 bg-navy/85 z-1" />
+      <div className="absolute inset-0 bg-navy/45 z-1" />
       <div className="absolute inset-0 bg-linear-to-b from-navy/50 via-transparent to-navy/50 z-2" />
 
       <div className="container mx-auto px-4 relative z-10" ref={ref}>
@@ -69,7 +69,7 @@ const WhyUs = () => {
               transition={{ duration: 0.6, delay: index * 0.1 }}
               className="group"
             >
-              <div className="bg-white/5 backdrop-blur-xl border border-white/10 rounded-3xl p-10 h-full transition-all duration-500 hover:bg-white/10 hover:border-gold/50 hover:shadow-2xl hover:shadow-gold/10 overflow-hidden relative">
+              <div className="bg-white/5 backdrop-blur-sm border border-white/10 rounded-[2.5rem] p-10 h-full flex flex-col hover:border-gold/50 transition-all duration-500 shadow-lg text-white">
                 <div className="absolute -top-10 -right-10 w-32 h-32 bg-gold/5 rounded-full blur-3xl group-hover:bg-gold/20 transition-all duration-500" />
 
                 <div className="w-20 h-20 rounded-2xl bg-gold/15 flex items-center justify-center mb-8 group-hover:scale-110 group-hover:bg-gold/25 transition-all duration-500 shadow-inner">

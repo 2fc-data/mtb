@@ -16,7 +16,7 @@ const Tips = () => {
     {
       icon: Droplets,
       title: "Hidratação",
-      description: "Recomendamos pelo menos 2L de água para as rotas longas.",
+      description: "Recomendamos pelo menos 2L de água para as trilhas longas.",
     },
     {
       icon: Footprints,
@@ -26,7 +26,7 @@ const Tips = () => {
     {
       icon: Zap,
       title: "Nível de Condicionamento",
-      description: "Informe seu nível para que o guia escolha a rota ideal.",
+      description: "Informe seu nível para que o guia escolha a trilha ideal.",
     },
   ];
 

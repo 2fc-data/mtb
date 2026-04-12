@@ -90,7 +90,7 @@ const Navbar = ({ onBookingClick }: { onBookingClick?: () => void }) => {
 
             <button
               onClick={onBookingClick}
-              className="btn-gold px-6 py-2 rounded-full font-semibold text-sm flex items-center gap-2"
+              className="btn-gold px-6 py-2 rounded-full font-semibold text-sm flex items-center gap-2 cursor-pointer"
             >
               <Bike className="w-4 h-4" />
               Agendar
@@ -155,7 +155,7 @@ const Navbar = ({ onBookingClick }: { onBookingClick?: () => void }) => {
 
                 <button
                   onClick={() => { setIsMobileMenuOpen(false); onBookingClick?.(); }}
-                  className="btn-gold px-6 py-4 rounded-full font-semibold text-center mt-2 flex items-center justify-center gap-2"
+                  className="btn-gold px-6 py-4 rounded-full font-semibold text-center mt-2 flex items-center justify-center gap-2 cursor-pointer"
                 >
                   <Bike className="w-5 h-5" />
                   Agendar agora

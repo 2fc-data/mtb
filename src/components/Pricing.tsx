@@ -132,7 +132,7 @@ const Pricing = ({ onBookingClick }: { onBookingClick?: () => void }) => {
 
               <button
                 onClick={onBookingClick}
-                className={`w-full block text-center py-5 rounded-2xl font-black uppercase tracking-widest transition-all duration-300 ${pkg.highlighted
+                className={`w-full block text-center py-5 rounded-2xl font-black uppercase tracking-widest transition-all duration-300 cursor-pointer ${pkg.highlighted
                     ? "bg-gold text-navy hover:bg-white hover:scale-105 shadow-xl shadow-gold/20"
                     : "bg-primary text-primary-foreground hover:bg-primary/90"
                   }`}

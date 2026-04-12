@@ -2,6 +2,7 @@ import { motion } from "framer-motion";
 import { useInView } from "framer-motion";
 import { useRef } from "react";
 import { Compass, Zap, MoveRight } from "lucide-react";
+import gallery4 from "@/assets/gallery-4.png";
 
 const RoutePlanner = ({ onBookingClick }: { onBookingClick?: () => void }) => {
   const ref = useRef(null);
@@ -47,19 +48,31 @@ const RoutePlanner = ({ onBookingClick }: { onBookingClick?: () => void }) => {
   ];
 
   return (
-    <section id="trilhas" className="py-24 bg-background overflow-hidden">
-      <div className="container mx-auto px-4" ref={ref}>
+    <section id="trilhas" className="py-24 relative overflow-hidden">
+      {/* Background with Overlay */}
+      <div
+        className="absolute inset-0 z-0 scale-110"
+        style={{
+          backgroundImage: `url(${gallery4})`,
+          backgroundPosition: 'center',
+          backgroundSize: 'cover'
+        }}
+      />
+      <div className="absolute inset-0 bg-navy/30 z-1" />
+      <div className="absolute inset-0 bg-linear-to-b from-navy/30 via-transparent to-navy/30 z-2" />
+
+      <div className="container mx-auto px-4 relative z-10" ref={ref}>
         <motion.div
           initial={{ opacity: 0, y: 30 }}
           animate={isInView ? { opacity: 1, y: 0 } : {}}
           transition={{ duration: 0.8 }}
           className="text-center mb-16"
         >
-          <span className="text-primary font-bold text-sm uppercase tracking-[0.3em]">
+          <span className="text-gold font-bold text-sm uppercase tracking-[0.3em]">
             Planejador
           </span>
-          <h2 className="font-display text-4xl sm:text-6xl text-foreground mt-4">
-            Qual o seu <span className="text-primary italic">Estilo?</span>
+          <h2 className="font-display text-4xl sm:text-6xl text-white mt-4">
+            Qual o seu <span className="text-gold italic">Estilo?</span>
           </h2>
         </motion.div>
 
@@ -72,23 +85,23 @@ const RoutePlanner = ({ onBookingClick }: { onBookingClick?: () => void }) => {
               transition={{ duration: 0.8, delay: 0.2 }}
               className="group h-full"
             >
-              <div className="bg-card border border-border rounded-[2.5rem] p-10 h-full flex flex-col hover:border-gold/40 transition-all duration-500 shadow-sm hover:shadow-2xl">
+              <div className="bg-navy/75 backdrop-blur-sm border border-white/10 rounded-[2.5rem] p-10 h-full flex flex-col hover:border-gold/50 transition-all duration-500 shadow-lg text-white">
                 <div className={`w-20 h-20 rounded-3xl ${route.bg} flex items-center justify-center mb-8 group-hover:scale-110 transition-transform duration-500`}>
                   <route.icon className={`w-10 h-10 ${route.color}`} />
                 </div>
 
                 <div className="mb-4">
                   <span className={`${route.color} text-xs font-black uppercase tracking-widest`}>{route.subtitle}</span>
-                  <h3 className="font-display text-4xl text-foreground mt-1">{route.title}</h3>
+                  <h3 className="font-display text-4xl text-white mt-1">{route.title}</h3>
                 </div>
 
-                <p className="text-muted-foreground text-lg leading-relaxed mb-10 flex-grow">
+                <p className="text-white/70 text-lg leading-relaxed mb-10 flex-grow">
                   {route.description}
                 </p>
 
                 <div className="space-y-3 mb-10">
                   {route.stats.map((stat) => (
-                    <div key={stat} className="flex items-center gap-3 text-sm font-medium text-foreground/80">
+                    <div key={stat} className="flex items-center gap-3 text-sm font-medium text-white/60">
                       <div className={`w-1.5 h-1.5 rounded-full ${route.color}`} />
                       {stat}
                     </div>
@@ -97,9 +110,9 @@ const RoutePlanner = ({ onBookingClick }: { onBookingClick?: () => void }) => {
 
                 <button
                   onClick={onBookingClick}
-                  className="inline-flex items-center gap-3 font-bold text-foreground group/link"
+                  className="inline-flex items-center gap-3 font-bold text-gold group/link cursor-pointer"
                 >
-                  Planejar Rota
+                  Planejar Trilha
                   <MoveRight className="w-5 h-5 text-gold group-hover/link:translate-x-2 transition-transform" />
                 </button>
               </div>
