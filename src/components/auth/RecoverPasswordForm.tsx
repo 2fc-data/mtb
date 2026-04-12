@@ -44,7 +44,7 @@ const RecoverPasswordForm = () => {
                 </div>
                 <Link 
                     to="/entrar" 
-                    className="inline-flex items-center gap-2 text-gold font-bold hover:underline underline-offset-4 pt-4"
+                    className="inline-flex items-center gap-2 text-gold font-bold hover:underline underline-offset-4 pt-4 cursor-pointer"
                 >
                     <ArrowLeft className="w-4 h-4" /> Voltar para o Login
                 </Link>
@@ -86,7 +86,7 @@ const RecoverPasswordForm = () => {
 
             <Link 
                 to="/entrar" 
-                className="block text-center text-sm text-primary-foreground/40 font-bold hover:text-gold transition-colors"
+                className="block text-center text-sm text-primary-foreground/40 font-bold hover:text-gold transition-colors cursor-pointer"
             >
                 Voltar para o Login
             </Link>

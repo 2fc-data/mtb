@@ -16,7 +16,6 @@ const Pricing = ({ onBookingClick }: { onBookingClick?: () => void }) => {
         "4h de pedal guiado",
         "Trilhas de nível técnico à escolha",
         "Seguro aventura individual",
-        "Fotos e vídeos inclusos",
         "Ponto de apoio com hidratação",
       ],
       icon: Bike,
@@ -27,7 +26,7 @@ const Pricing = ({ onBookingClick }: { onBookingClick?: () => void }) => {
       price: "450",
       description: "A experiência definitiva na caldeira",
       features: [
-        "Dia inteiro (8h+) de expedição",
+        "Dia livre (6h+) de expedição",
         "Suporte com veículo 4x4",
         "Almoço em fazenda histórica",
         "Mecânico de apoio full-time",
@@ -53,7 +52,7 @@ const Pricing = ({ onBookingClick }: { onBookingClick?: () => void }) => {
   ];
 
   const paymentMethods = [
-    "PIX (5% OFF)",
+    "PIX",
     "Cartão de Crédito (até 12x)",
     "Dinheiro",
   ];
@@ -83,8 +82,8 @@ const Pricing = ({ onBookingClick }: { onBookingClick?: () => void }) => {
               animate={isInView ? { opacity: 1, y: 0 } : {}}
               transition={{ duration: 0.6, delay: index * 0.15 }}
               className={`relative rounded-3xl p-10 flex flex-col ${pkg.highlighted
-                  ? "bg-navy text-primary-foreground shadow-2xl scale-105 z-10 border-2 border-gold"
-                  : "bg-card border border-border hover:border-gold/30 transition-all duration-300"
+                ? "bg-navy text-primary-foreground shadow-2xl scale-105 z-10 border-2 border-gold"
+                : "bg-card border border-border hover:border-gold/30 transition-all duration-300"
                 }`}
             >
               {pkg.highlighted && (
@@ -133,8 +132,8 @@ const Pricing = ({ onBookingClick }: { onBookingClick?: () => void }) => {
               <button
                 onClick={onBookingClick}
                 className={`w-full block text-center py-5 rounded-2xl font-black uppercase tracking-widest transition-all duration-300 cursor-pointer ${pkg.highlighted
-                    ? "bg-gold text-navy hover:bg-white hover:scale-105 shadow-xl shadow-gold/20"
-                    : "bg-primary text-primary-foreground hover:bg-primary/90"
+                  ? "bg-gold text-navy hover:bg-white hover:scale-105 shadow-xl shadow-gold/20"
+                  : "bg-primary text-primary-foreground hover:bg-primary/90"
                   }`}
               >
                 Reservar Agora

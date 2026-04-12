@@ -25,9 +25,9 @@ const Index = () => {
       <WhyUs />
       <Gallery />
       <RoutePlanner onBookingClick={handleBookingClick} />
+      <Tips />
       <Lodging />
       <Pricing onBookingClick={handleBookingClick} />
-      <Tips />
       <CTA onBookingClick={handleBookingClick} />
       <Footer />
 

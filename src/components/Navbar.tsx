@@ -47,7 +47,7 @@ const Navbar = ({ onBookingClick }: { onBookingClick?: () => void }) => {
     >
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between">
-          <a href="/" className="font-display text-2xl text-primary-foreground flex items-center gap-2">
+          <a href="/" className="font-display text-2xl text-primary-foreground flex items-center gap-2 cursor-pointer">
             <Mountain className="w-8 h-8 text-gold fill-gold/20" />
             <span>Vulcão <span className="text-gold uppercase tracking-tighter">trilhas</span></span>
           </a>
@@ -58,7 +58,7 @@ const Navbar = ({ onBookingClick }: { onBookingClick?: () => void }) => {
               <a
                 key={link.href}
                 href={link.href}
-                className="text-primary-foreground/80 md:hover:text-gold transition-colors font-medium text-sm lg:text-base"
+                className="text-primary-foreground/80 md:hover:text-gold transition-colors font-medium text-sm lg:text-base cursor-pointer"
               >
                 {link.label}
               </a>
@@ -73,7 +73,7 @@ const Navbar = ({ onBookingClick }: { onBookingClick?: () => void }) => {
                 </span>
                 <button
                   onClick={handleLogout}
-                  className="text-primary-foreground/60 hover:text-white transition-colors p-1"
+                  className="text-primary-foreground/60 hover:text-white transition-colors p-1 cursor-pointer"
                   title="Sair"
                 >
                   <LogOut className="w-5 h-5" />
@@ -82,7 +82,7 @@ const Navbar = ({ onBookingClick }: { onBookingClick?: () => void }) => {
             ) : (
               <a
                 href="/entrar"
-                className="text-primary-foreground/80 hover:text-white transition-colors font-bold text-sm uppercase tracking-widest"
+                className="text-primary-foreground/80 hover:text-white transition-colors font-bold text-sm uppercase tracking-widest cursor-pointer"
               >
                 Login
               </a>
@@ -100,7 +100,7 @@ const Navbar = ({ onBookingClick }: { onBookingClick?: () => void }) => {
           {/* Mobile Menu Button */}
           <div className="flex items-center gap-4 md:hidden">
             {!authData && (
-              <a href="/entrar" className="text-primary-foreground/80 p-2">
+              <a href="/entrar" className="text-primary-foreground/80 p-2 cursor-pointer">
                 <User className="w-6 h-6" />
               </a>
             )}
@@ -127,7 +127,7 @@ const Navbar = ({ onBookingClick }: { onBookingClick?: () => void }) => {
                   <a
                     key={link.href}
                     href={link.href}
-                    className="text-primary-foreground/90 active:text-gold font-medium text-lg block transition-none"
+                    className="text-primary-foreground/90 active:text-gold font-medium text-lg block transition-none cursor-pointer"
                     onClick={() => setIsMobileMenuOpen(false)}
                   >
                     {link.label}
@@ -139,14 +139,14 @@ const Navbar = ({ onBookingClick }: { onBookingClick?: () => void }) => {
                     <span className="text-gold font-bold uppercase tracking-widest flex items-center gap-2">
                       <User className="w-5 h-5" /> {authData.user?.name || "Piloto"}
                     </span>
-                    <button onClick={handleLogout} className="text-primary-foreground/60 flex items-center gap-2">
+                    <button onClick={handleLogout} className="text-primary-foreground/60 flex items-center gap-2 cursor-pointer">
                       <LogOut className="w-5 h-5" /> Sair
                     </button>
                   </div>
                 ) : (
                   <a
                     href="/entrar"
-                    className="text-primary-foreground font-bold uppercase tracking-widest text-center py-3 border border-white/10 rounded-xl"
+                    className="text-primary-foreground font-bold uppercase tracking-widest text-center py-3 border border-white/10 rounded-xl cursor-pointer"
                     onClick={() => setIsMobileMenuOpen(false)}
                   >
                     Fazer Login

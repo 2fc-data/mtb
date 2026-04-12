@@ -60,7 +60,7 @@ const LoginForm = () => {
                         <label className="text-sm font-bold text-primary-foreground/60 uppercase tracking-widest">Senha</label>
                         <Link 
                             to="/recuperar-senha" 
-                            className="text-xs font-bold text-gold hover:underline decoration-gold/30 underline-offset-4"
+                            className="text-xs font-bold text-gold hover:underline decoration-gold/30 underline-offset-4 cursor-pointer"
                         >
                             Esqueceu?
                         </Link>
@@ -118,7 +118,7 @@ const LoginForm = () => {
 
             <p className="text-center text-sm text-primary-foreground/40 font-medium">
                 Novo por aqui?{" "}
-                <Link to="/cadastro" className="text-gold font-bold hover:underline underline-offset-4">
+                <Link to="/cadastro" className="text-gold font-bold hover:underline underline-offset-4 cursor-pointer">
                     Crie sua conta
                 </Link>
             </p>

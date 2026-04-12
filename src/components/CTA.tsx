@@ -57,7 +57,7 @@ const CTA = ({ onBookingClick }: { onBookingClick?: () => void }) => {
             </button>
             <a
               href="tel:+5535999513333"
-              className="px-10 py-6 rounded-full font-bold text-lg border-2 border-white/20 text-white hover:bg-white/10 backdrop-blur-md transition-all flex items-center justify-center gap-3"
+              className="px-10 py-6 rounded-full font-bold text-lg border-2 border-white/20 text-white hover:bg-white/10 backdrop-blur-md transition-all flex items-center justify-center gap-3 cursor-pointer"
             >
               <Phone className="w-5 h-5" />
               (35) 99951-3333

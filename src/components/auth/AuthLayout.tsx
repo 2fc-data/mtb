@@ -31,7 +31,7 @@ const AuthLayout = ({ children, title, subtitle }: AuthLayoutProps) => {
       >
         <Link 
           to="/" 
-          className="flex items-center gap-2 text-white/60 hover:text-gold transition-colors font-bold uppercase tracking-widest text-xs group"
+          className="flex items-center gap-2 text-white/60 hover:text-gold transition-colors font-bold uppercase tracking-widest text-xs group cursor-pointer"
         >
           <div className="bg-white/10 p-2 rounded-full group-hover:bg-gold/20 transition-colors">
             <ArrowLeft className="w-4 h-4" />

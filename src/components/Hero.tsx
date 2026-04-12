@@ -72,7 +72,7 @@ const Hero = ({ onBookingClick }: { onBookingClick?: () => void }) => {
           </button>
           <a
             href="#sobre"
-            className="px-10 py-5 rounded-full font-bold text-lg border-2 border-primary-foreground/20 text-primary-foreground hover:bg-primary-foreground/10 backdrop-blur-sm transition-all duration-300 flex items-center justify-center"
+            className="px-10 py-5 rounded-full font-bold text-lg border-2 border-primary-foreground/20 text-primary-foreground hover:bg-primary-foreground/10 backdrop-blur-sm transition-all duration-300 flex items-center justify-center cursor-pointer"
           >
             Dúvidas?
           </a>
@@ -84,7 +84,7 @@ const Hero = ({ onBookingClick }: { onBookingClick?: () => void }) => {
           transition={{ duration: 0.8, delay: 1.2 }}
           className="absolute bottom-12 left-1/2 -translate-x-1/2 hidden sm:block"
         >
-          <a href="#sobre" className="flex flex-col items-center gap-2 text-primary-foreground/50 hover:text-primary-foreground transition-colors group">
+          <a href="#sobre" className="flex flex-col items-center gap-2 text-primary-foreground/50 hover:text-primary-foreground transition-colors group cursor-pointer">
             <span className="text-[10px] uppercase tracking-[0.3em] font-bold">Descubra</span>
             <ChevronDown className="w-8 h-8 animate-bounce text-gold" />
           </a>

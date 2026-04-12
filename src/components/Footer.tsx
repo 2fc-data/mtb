@@ -35,13 +35,13 @@ const Footer = () => {
           >
             <a
               href="https://www.instagram.com/vulcaotrilhas/" target="_blank" rel="noopener noreferrer"
-              className="w-10 h-10 rounded-full bg-primary-foreground/10 flex items-center justify-center text-primary-foreground/60 hover:bg-gold hover:text-navy transition-all duration-300"
+              className="w-10 h-10 rounded-full bg-primary-foreground/10 flex items-center justify-center text-primary-foreground/60 hover:bg-gold hover:text-navy transition-all duration-300 cursor-pointer"
             >
               <Instagram className="w-5 h-5" />
             </a>
             <a
               href="https://wa.me/5535999309770" target="_blank" rel="noopener noreferrer"
-              className="w-10 h-10 rounded-full bg-primary-foreground/10 flex items-center justify-center text-primary-foreground/60 hover:bg-gold hover:text-navy transition-all duration-300"
+              className="w-10 h-10 rounded-full bg-primary-foreground/10 flex items-center justify-center text-primary-foreground/60 hover:bg-gold hover:text-navy transition-all duration-300 cursor-pointer"
             >
               <Bike className="w-5 h-5" />
             </a>

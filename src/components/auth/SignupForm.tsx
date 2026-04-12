@@ -264,7 +264,7 @@ const SignupForm = () => {
 
             <p className="text-center text-sm text-primary-foreground/40 font-medium pb-2">
                 Já tem uma conta?{" "}
-                <Link to="/entrar" className="text-gold font-bold hover:underline underline-offset-4">
+                <Link to="/entrar" className="text-gold font-bold hover:underline underline-offset-4 cursor-pointer">
                     Fazer Login
                 </Link>
             </p>
