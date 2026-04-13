@@ -58,6 +58,12 @@ const WhyUs = () => {
           <h2 className="font-display text-4xl sm:text-6xl lg:text-7xl text-primary-foreground leading-tight">
             Por Que Pedalar <span className="text-gold italic">Conosco?</span>
           </h2>
+
+          <p className="text-gold text-3xl leading-relaxed my-10">
+            Temos o propósito de ser o anfitrião do seu pedal.</p>
+
+          <span className="text-primary-foreground font-bold text-sm uppercase tracking-[0.4em] mb-4 block">
+            Sejam bemvindos e vamos curtir o rolê</span>
         </motion.div>
 
         <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6 lg:gap-8">
