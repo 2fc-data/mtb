@@ -12,10 +12,10 @@ const Gallery = () => {
   const [selectedImage, setSelectedImage] = useState<string | null>(null);
 
   const images = [
-    { src: heroMain, alt: "Mountain Bike ao entardecer" },
-    { src: gallery1, alt: "Grupo de MTB ou Estradão" },
-    { src: gallery2, alt: "Singletrack técnico nas montanhas" },
-    { src: gallery3, alt: "Cicloturismo nas Trilhas do Vulcão" },
+    { src: heroMain, alt: "Bike ao entardecer" },
+    { src: gallery1, alt: "Trilhas e Estradão" },
+    { src: gallery2, alt: "Singletrack técnico" },
+    { src: gallery3, alt: "Paisagens maravilhosas" },
   ];
 
   return (

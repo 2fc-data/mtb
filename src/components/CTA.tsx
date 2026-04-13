@@ -38,7 +38,7 @@ const CTA = ({ onBookingClick }: { onBookingClick?: () => void }) => {
             </h2>
             <p className="text-primary-foreground/70 text-xl mb-12 max-w-2xl leading-relaxed">
               Informe nos sobre suas preferências e formaremos um grupo personaliadso garantindo a melhor experiência nas trilhas de Poços de Caldas.
-              Suporte completo, dicas locais e muita adrenalina.
+              Suporte completo, dicas locais e muitas emoções.
             </p>
           </motion.div>
 

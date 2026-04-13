@@ -19,7 +19,7 @@ const RoutePlanner = ({ onBookingClick }: { onBookingClick?: () => void }) => {
       bg: "bg-blue-500/10",
     },
     {
-      title: "Cicloturismo",
+      title: "Iniciantes",
       subtitle: "A Contemplação",
       description: "Percorra trilhas e estradas rurais, fazendas históricas e visuais panorâmicos da caldeira. Foco em resistência e paisagem.",
       stats: ["Nível: Iniciante / Intermediário", "Distância: 30km - 60km+", "Ganho: 800m - 1500m"],

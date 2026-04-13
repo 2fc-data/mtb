@@ -18,7 +18,7 @@ const Footer = () => {
             <div className="flex items-center gap-2 mb-2">
               <Mountain className="w-8 h-8 text-gold fill-gold/20" />
               <h3 className="font-display text-2xl text-primary-foreground">
-                Vulcão <span className="text-gold uppercase tracking-tighter">trilhas</span>
+                Trilhas <span className="text-gold uppercase tracking-tighter">MTB</span>
               </h3>
             </div>
             <p className="text-primary-foreground/60 text-sm">
@@ -55,7 +55,7 @@ const Footer = () => {
             className="text-right"
           >
             <p className="text-primary-foreground/50 text-sm flex items-center justify-center md:justify-end gap-1">
-              © {currentYear} • Vulcão trilhas MTB
+              © {currentYear} • Trilhas e Estradão
             </p>
             <p className="text-primary-foreground/30 text-[10px] mt-1">
               by: <a href="mailto:2fc.data@gmail.com" className="hover:underline">2fc.data</a>

@@ -12,7 +12,7 @@ const About = () => {
     {
       icon: Map,
       title: "Estradas e Trilhas Rurais",
-      description: "Fazendas ao redor da caldeira",
+      description: "Fazendas ao redor da cidade",
     },
     {
       icon: Users,
@@ -22,7 +22,7 @@ const About = () => {
     {
       icon: Gauge,
       title: "Níveis Variados",
-      description: "Passeios, Trilhas, Cross-Country e Downhill",
+      description: "Passeios, Trilhas, Cross-Country",
     },
   ];
 
@@ -71,13 +71,14 @@ const About = () => {
               A Experiência
             </span>
             <h2 className="font-display text-4xl sm:text-5xl lg:text-7xl text-foreground mt-4 mb-8 leading-tight">
-              Pedale em trilhas sobre um
+              Pedale em um
               <span className="text-primary italic">Vulcão Adormecido</span>
             </h2>
             <p className="text-muted-foreground text-xl leading-relaxed mb-10">
-              Vulcão Trilhas nasceu da paixão pelas montanhas de Poços de Caldas.
-              Uma caldeira vulcânica que abriga uma cidade,
-              oferecendo um terreno <strong className="text-foreground italic">geologicamente único</strong>.
+              <i>Trilhas e Estradão</i> paixão pelas montanhas de Poços de Caldas.
+              Uma caldeira vulcânica que abriga a cidade oferecendo um terreno <strong className="text-foreground italic">geologicamente único</strong>.
+            </p>
+            <p className="text-muted-foreground text-xl leading-relaxed mb-10">
               Seja passeios familiares ou explorando as estradas rurais
               com segurança, técnica e visuais de tirar o fôlego.
             </p>

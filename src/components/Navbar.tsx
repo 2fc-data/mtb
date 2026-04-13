@@ -49,7 +49,7 @@ const Navbar = ({ onBookingClick }: { onBookingClick?: () => void }) => {
         <div className="flex items-center justify-between">
           <a href="/" className="font-display text-2xl text-primary-foreground flex items-center gap-2 cursor-pointer">
             <Mountain className="w-8 h-8 text-gold fill-gold/20" />
-            <span>Vulcão <span className="text-gold uppercase tracking-tighter">trilhas</span></span>
+            <span>Trilhas e <span className="text-gold tracking-tighter">Estradão</span></span>
           </a>
 
           {/* Desktop Menu */}

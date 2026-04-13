@@ -16,7 +16,7 @@ const WhyUs = () => {
     },
     {
       icon: MapPin,
-      title: "Trilhas Exclusiva",
+      title: "Trilhas Exclusivas",
       description: "Acesso a trilhas particulares e passagens secretas na caldeira.",
     },
     {

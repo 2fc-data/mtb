@@ -1,6 +1,6 @@
 # Especificação: Wizard de Agendamento e Preferências MTB
 
-Este documento descreve o design e a implementação do novo sistema de agendamento dinâmico para a plataforma Vulcão Trilhas.
+Este documento descreve o design e a implementação do novo sistema de agendamento dinâmico para a plataforma Trilhas e Estradão.
 
 ## 1. Visão Geral
 O objetivo é substituir o contato direto via WhatsApp por um fluxo de agendamento qualificado que coleta preferências do ciclista, verifica/cadastra o usuário na base de dados e salva o agendamento antes de iniciar o contato humano.

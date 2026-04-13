@@ -22,7 +22,7 @@ const Pricing = ({ onBookingClick }: { onBookingClick?: () => void }) => {
       highlighted: false,
     },
     {
-      name: "Expedição Vulcão",
+      name: "Expedição Trilhas e Estradão",
       price: "450",
       description: "A experiência definitiva na caldeira",
       features: [
@@ -30,7 +30,7 @@ const Pricing = ({ onBookingClick }: { onBookingClick?: () => void }) => {
         "Suporte com veículo 4x4",
         "Almoço em fazenda histórica",
         "Mecânico de apoio full-time",
-        "Kit Vulcão trilhas (Jersey + Squeeze)",
+        "Kit Trilhas e Estradão (Jersey + Squeeze)",
       ],
       icon: Map,
       highlighted: true,

@@ -16,7 +16,7 @@ const Hero = ({ onBookingClick }: { onBookingClick?: () => void }) => {
       >
         <img
           src={heroImage}
-          alt="Mountain Bike em Poços de Caldas - Trilhas no Vulcão"
+          alt="Mountain Bike em Poços de Caldas - Trilhas e Estradão"
           className="w-full h-[120%] object-cover"
         />
         <div className="absolute inset-0 bg-linear-to-b from-navy/60 via-navy/30 to-background" />
@@ -42,9 +42,9 @@ const Hero = ({ onBookingClick }: { onBookingClick?: () => void }) => {
           transition={{ duration: 0.8, delay: 0.4 }}
           className="font-display text-5xl sm:text-7xl md:text-8xl lg:text-9xl text-primary-foreground leading-[0.9] mb-6 text-shadow-hero"
         >
-          TRILHAS NO
+          TRILHAS e
           <br />
-          <span className="text-gradient-gold">VULCÃO</span>
+          <span className="text-gradient-gold">ESTRADÃO</span>
         </motion.h1>
 
         <motion.p
@@ -53,8 +53,8 @@ const Hero = ({ onBookingClick }: { onBookingClick?: () => void }) => {
           transition={{ duration: 0.8, delay: 0.6 }}
           className="text-lg sm:text-xl md:text-2xl text-primary-foreground/90 max-w-3xl mb-12 font-light leading-relaxed"
         >
-          Explore as trilhas da caldeira vulcânica sobre duas rodas.
-          Das trilhas técnicas de Downhill aos passeios para iniciantes.
+          Explore as MONTANHAS vulcânicas sobre duas rodas.<br />
+          Pedal família • Cross-country • Trilhas leves • Trilhas Técnicas
         </motion.p>
 
         <motion.div
