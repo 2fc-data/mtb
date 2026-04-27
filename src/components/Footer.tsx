@@ -18,11 +18,11 @@ const Footer = () => {
             <div className="flex items-center gap-2 mb-2">
               <Mountain className="w-8 h-8 text-gold fill-gold/20" />
               <h3 className="font-display text-2xl text-primary-foreground">
-                Trilhas <span className="text-gold uppercase tracking-tighter">MTB</span>
+                Trilha e Estradão <span className="text-gold uppercase tracking-tighter">MTB</span>
               </h3>
             </div>
             <p className="text-primary-foreground/60 text-sm">
-              Sua aventura <span className="text-gold font-semibold uppercase tracking-widest text-xs ml-1">Mountain Bike</span> em Poços de Caldas
+              Sua aventura <span className="text-gold font-semibold uppercase tracking-widest text-xs ml-1">Mountain Bike</span> em Poços de Caldas - MG
             </p>
           </motion.div>
 
@@ -34,7 +34,7 @@ const Footer = () => {
             className="flex items-center gap-4"
           >
             <a
-              href="https://www.instagram.com/vulcaotrilhas/" target="_blank" rel="noopener noreferrer"
+              href="https://www.instagram.com/trilhaeestradao/" target="_blank" rel="noopener noreferrer"
               className="w-10 h-10 rounded-full bg-primary-foreground/10 flex items-center justify-center text-primary-foreground/60 hover:bg-gold hover:text-navy transition-all duration-300 cursor-pointer"
             >
               <Instagram className="w-5 h-5" />
