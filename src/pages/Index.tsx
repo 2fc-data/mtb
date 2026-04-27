@@ -21,12 +21,12 @@ const Index = () => {
     <main className="overflow-x-hidden">
       <Navbar onBookingClick={handleBookingClick} />
       <Hero onBookingClick={handleBookingClick} />
-      <About />
-      <WhyUs />
       <Gallery />
+      <Lodging />
       <RoutePlanner onBookingClick={handleBookingClick} />
       <Tips />
-      <Lodging />
+      <WhyUs />
+      <About />
       <Pricing onBookingClick={handleBookingClick} />
       <CTA onBookingClick={handleBookingClick} />
       <Footer />

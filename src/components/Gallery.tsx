@@ -13,8 +13,8 @@ const Gallery = () => {
 
   const images = [
     { src: heroMain, alt: "Bike ao entardecer" },
-    { src: gallery1, alt: "Trilhas e Estradão" },
-    { src: gallery2, alt: "Singletrack técnico" },
+    { src: gallery1, alt: "Trilhas e estradas rurais" },
+    { src: gallery2, alt: "Downhill e Singletrack" },
     { src: gallery3, alt: "Paisagens maravilhosas" },
   ];
 
