@@ -234,7 +234,7 @@ export function BookingModal({ open, onOpenChange }: BookingModalProps) {
                       className="grid grid-cols-1 sm:grid-cols-2 gap-4"
                     >
                       <Label className="flex items-center justify-between p-5 rounded-xl border border-white/10 bg-white/5 cursor-pointer has-[:checked]:border-gold has-[:checked]:bg-gold/10 transition-all font-bold">
-                        Muscular
+                        Bike
                         <RadioGroupItem value="bike" className="text-gold" />
                       </Label>
                       <Label className="flex items-center justify-between p-5 rounded-xl border border-white/10 bg-white/5 cursor-pointer has-[:checked]:border-gold has-[:checked]:bg-gold/10 transition-all font-bold">
