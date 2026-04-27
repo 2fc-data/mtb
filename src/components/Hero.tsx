@@ -33,18 +33,18 @@ const Hero = ({ onBookingClick }: { onBookingClick?: () => void }) => {
           transition={{ duration: 0.6, delay: 0.2 }}
           className="inline-block px-6 py-2 rounded-full bg-gold/20 text-primary-foreground font-semibold text-xs uppercase tracking-[0.2em] mb-6 backdrop-blur-md border border-gold/30 shadow-gold/10"
         >
-          Poços de Caldas • Minas Gerais • Brasil
+          MTB • Poços de Caldas • Minas Gerais • Brasil
         </motion.span>
 
         <motion.h1
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.4 }}
-          className="font-display text-5xl sm:text-7xl md:text-8xl lg:text-9xl text-primary-foreground leading-[0.9] mb-6 text-shadow-hero"
+          className="font-display text-4xl sm:text-6xl md:text-7xl lg:text-8xl text-primary-foreground leading-[0.9] mb-6 text-shadow-hero"
         >
-          TRILHAS e
+          Mountain Bike
           <br />
-          <span className="text-gradient-gold">ESTRADÃO</span>
+          <span className="text-gradient-gold">TRILHA e ESTRADÃO</span>
         </motion.h1>
 
         <motion.p
@@ -53,7 +53,7 @@ const Hero = ({ onBookingClick }: { onBookingClick?: () => void }) => {
           transition={{ duration: 0.8, delay: 0.6 }}
           className="text-lg sm:text-xl md:text-2xl text-primary-foreground/90 max-w-3xl mb-12 font-light leading-relaxed"
         >
-          Explore as MONTANHAS vulcânicas sobre duas rodas.<br />
+          Explore as MONTANHAS vulcânicas sobre <span className="text-gold tracking-tighter">DUAS RODAS</span>.<br />
           Pedal família • Cross-country • Trilhas leves • Trilhas Técnicas
         </motion.p>
 
