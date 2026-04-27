@@ -28,10 +28,10 @@ const Navbar = ({ onBookingClick }: { onBookingClick?: () => void }) => {
   };
 
   const navLinks = [
-    { href: "/#sobre", label: "A Experiência" },
     { href: "/#galeria", label: "Galeria" },
-    { href: "/#trilhas", label: "Trilhas" },
     { href: "/#hospedagem", label: "Hospedagem" },
+    { href: "/#trilhas", label: "Trilhas" },
+    { href: "/#sobre", label: "A Experiência" },
     { href: "/#precos", label: "Pacotes" },
   ];
 
