@@ -42,9 +42,9 @@ const Hero = ({ onBookingClick }: { onBookingClick?: () => void }) => {
           transition={{ duration: 0.8, delay: 0.4 }}
           className="font-display text-4xl sm:text-6xl md:text-7xl lg:text-8xl text-primary-foreground leading-[0.9] mb-6 text-shadow-hero"
         >
-          Mountain Bike
+          MOUNTAIN BIKE
           <br />
-          <span className="text-gradient-gold">TRILHA e ESTRADÃO</span>
+          <span className="text-gradient-gold">Trilha e Estradão</span>
         </motion.h1>
 
         <motion.p
